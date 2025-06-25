@@ -1,10 +1,10 @@
-# 🎖️ VIP Online Plugin for AMXX (CS 1.6)
+🎖️ VIP Online Plugin for AMXX (CS 1.6)
 
 This AMXX plugin displays a list of **online VIPs** (users with `ADMIN_LEVEL_H` flag) when a player types `/vips` in the chat. It is a simple and efficient way to highlight premium players or special members on your server.
 
 ---
 
-## 🧩 Plugin Info
+🧩 Plugin Info
 
 - **Name:** VIP Online
 - **Version:** 1.0
@@ -14,15 +14,14 @@ This AMXX plugin displays a list of **online VIPs** (users with `ADMIN_LEVEL_H` 
 
 ---
 
-## 💬 Features
+💬 Features
 
 - Players can type `/vips` in chat to see a list of VIPs currently online.
 - Displays names directly in chat with color formatting.
 - Detects connected players with the `ADMIN_LEVEL_H` flag (commonly used for VIP access).
 
 ---
-
-## 📥 Installation
+📥 Installation
 
 1. **Download / Compile Plugin:**
    - Compile `vip_online.sma` using the [AMXX compiler](https://www.amxmodx.org/compiler.php) or locally.
@@ -47,19 +46,15 @@ This AMXX plugin displays a list of **online VIPs** (users with `ADMIN_LEVEL_H` 
 
 ---
 
-## 🗨️ Usage
+🗨️ Usage
 
 - In-game, players can type:
-/vips
-
-yaml
-Copiar
-Editar
-and a list of online VIPs will be shown in the chat.
+- 
+/vips  and a list of online VIPs will be shown in the chat.
 
 ---
 
-## 📌 Notes
+📌 Notes
 
 - The plugin uses the `SayText` message to print colored chat messages.
 - Messages are automatically split if they exceed the display limit.
@@ -67,7 +62,7 @@ and a list of online VIPs will be shown in the chat.
 
 ---
 
-## 🛠️ Customization
+🛠️ Customization
 
 - **Flag:** You can change the required VIP flag (`ADMIN_LEVEL_H`) by modifying the following line in the code:
 ```cpp
